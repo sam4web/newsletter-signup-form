@@ -32,7 +32,7 @@ Users should be able to:
 
 #### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-PGgtca_ioM)
 - Live Site URL: [Add live site URL here](https://sam4web.github.io/newsletter_signup_form/)
 
 ### Built with
