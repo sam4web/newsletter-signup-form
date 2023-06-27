@@ -1,35 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import { Newsletter, SuccessMsg, Attribution } from './components';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [email, setEmail] = useState('');
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div
+      id='page-wrapper'
+      className='w-full h-screen md:py-8 flex items-center bg-charcoal-grey'
+    >
+      <section className='w-full md:px-6 '>
+        {!email ? (
+          <Newsletter handleSubmit={(value) => setEmail(value)} />
+        ) : (
+          <SuccessMsg email={email} clearEmail={() => setEmail(null)} />
+        )}
+      </section>
+      <Attribution />
+    </div>
+  );
+};
 
-export default App
+export default App;
