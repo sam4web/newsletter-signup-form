@@ -10,7 +10,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### Overview
 
@@ -32,8 +31,8 @@ Users should be able to:
 
 #### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-PGgtca_ioM)
-- Live Site URL: [Add live site URL here](https://sam4web.github.io/newsletter_signup_form/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-PGgtca_ioM)
+- Live Site URL: [Live Site URL](https://sam4web.github.io/newsletter_signup_form/)
 
 ### Built with
 
@@ -41,7 +40,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Vue.js](https://react.dev/)
+- [React.js](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ### Author
