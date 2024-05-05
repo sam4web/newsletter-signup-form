@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/newsletter_signup_form/',
+  base: '/newsletter-signup-form/',
   plugins: [react()],
 });
